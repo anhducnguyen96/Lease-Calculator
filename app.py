@@ -33,7 +33,7 @@ if uploaded_file is not None:
     
     # Create Total Row
     total_row = pd.DataFrame(sums).T
-    total_row[df_display.columns[0]] = "Celkem (Total)"
+    total_row[df_display.columns[0]] = "Celkem"
     total_row.index = ["Total"]
     
     # Append Total row to the bottom
